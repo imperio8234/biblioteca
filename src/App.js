@@ -47,7 +47,7 @@ function App() {
 
   return (
     <div className="contenedor p-3 mb-2 bg-primary-subtle text-emphasis-primary">
-      <button>downloadApp</button>
+      {isReadyForInstall && <button>downloadApp</button>}
 
     <div className="contenedorBtn">
         <h2>bienvenido a tu biblioteca</h2>
